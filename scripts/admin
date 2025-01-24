@@ -1,5 +1,5 @@
 #!/bin/bash
 
-python3 ../drivers/bot_mcgraw.py username password "https://link_to_homework_on_canvas"
+python3 ../drivers/bot_mcgraw.py grahamdanziger Redraiders28$$ "https://worldclassroom.webster.edu/courses/1469901/assignments/7376188?return_to=https%3A%2F%2Fworldclassroom.webster.edu%2Fcalendar%23view_name%3Dagenda%26view_start%3D2025-01-23"
 
 echo "Initializing..."
