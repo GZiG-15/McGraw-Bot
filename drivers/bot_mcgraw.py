@@ -39,7 +39,7 @@ def set_window_position_safely(x, y, driver):
 def mcstart(user, passw, link, driver):
     time.sleep(3)
     driver.get(link)
-    WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, 'https://colostate.instructure.com/login/saml')]"))).click()
+    WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, "//a[contains(@href, 'https://newconnect.mheducation.com/student/class/section/150758593')]"))).click()
     WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.ID, "username"))).send_keys(user)
     WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.ID, "password"))).send_keys(passw)
     WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(@type, 'submit')]"))).click()
